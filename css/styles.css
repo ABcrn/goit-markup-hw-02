@@ -2,19 +2,26 @@ body{
     font-family: "roboto", sans-serif;
      color: #434455;
      font-size: 16px;
-     font-weight: 400;
      font-style: normal;
-     line-height: 24px;
-     letter-spacing: 2%;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
      background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 .logo{
     font-family: "raleway", sans-serif;
     font-size: 18px;
-    font-weight: bold;
-    line-height: 21px;
-    letter-spacing: 3%;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 
 }
 
@@ -23,9 +30,17 @@ body{
     text-decoration: none;
 }
 
+.nav:hover{
+    color: #404BBF;
+}
+
 .address{
     color: #434455;
     text-decoration: none;
+}
+
+.address:hover{
+    color: #404BBF;
 }
 
 .logo > p{
@@ -38,6 +53,7 @@ body{
     padding: 16px 32px 16px 32px;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -47,8 +63,8 @@ body{
 .h1{
   font-size: 56px;
   font-weight: bold;
-  letter-spacing: 2%;
-  line-height: 60px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
   color: white;
   background-color: #2E2F42;
   text-align: center;
@@ -57,8 +73,8 @@ body{
 .h2ot{
     font-size: 36px;
     font-weight: bold;
-    letter-spacing: 2%;
-    line-height: 40px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     color: #2E2F42;
     background-color: #F4F4FD;
     text-align: center;
@@ -71,8 +87,8 @@ background-color: white;
 .h2op{
     font-size: 36px;
     font-weight: bold;
-    letter-spacing: 2%;
-    line-height: 40px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     color: #2E2F42;
     background-color: #ffffff;
     text-align: center;
@@ -81,8 +97,8 @@ background-color: white;
 .h3{
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
     color: white;
     background-color: #2E2F42;
     text-align: center;
